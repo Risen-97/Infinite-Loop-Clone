@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply py-3 px-7 cursor-pointer text-center inline-block lg:inline  w-full  hover:bg-main-color hover:text-white transition ease-out duration-500;
+}
+
+.active {
+  @apply bg-main-color text-white;
+}
+
+.animate {
+  @apply transition ease-in duration-300;
+}
+
+.pad-nav {
+  padding: 1rem calc((100vw - 1300px) / 2);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #333;
+  /* color: #3382d1; */
+}
